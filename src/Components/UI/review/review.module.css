@@ -1,0 +1,123 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  background-color: var(--color5);
+  padding: 30px 20px;
+  flex: 0 1 310px;
+  box-shadow: 1px 1px 7px rgba(116, 116, 116, 0.562);
+}
+
+.card:nth-of-type(2n) {
+  box-shadow: 3px 3px 15px rgba(19, 19, 19, 0.76);
+  transform: scale(1.03);
+}
+
+.card .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: var(--color2);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: var(--color5);
+  border: 8px double var(--color5);
+  box-shadow: 1px 1px 10px rgba(34, 34, 34, 0.452);
+}
+
+.card > span {
+  background-color: var(--color4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 12px;
+  border-radius: 0 25px 0 25px;
+  font-weight: 600;
+  color: var(--color5);
+  font-size: 15px;
+}
+
+.card .price span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  color: var(--color4);
+  font-weight: 600;
+  text-shadow: 1px 1px 3px #222;
+}
+
+.card .type {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+.card .type::before {
+  text-align: center;
+  content: "";
+  position: absolute;
+  top: 50%;
+  background-color: var(--color4);
+  height: 2px;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.card .type h3 {
+  z-index: 100;
+  background-color: var(--color5);
+  text-align: center;
+  padding: 0 10px;
+  font-weight: 800;
+}
+
+.card ul li {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.card ul li > span {
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #2da01c;
+}
+
+.card a button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 17px 10px;
+  font-weight: 700;
+  background-color: var(--color2);
+  color: var(--color5);
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 12px var(--color2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 70%;
+  align-self: center;
+}
+
+.card:nth-of-type(2) button {
+  background-color: var(--color4);
+  box-shadow: 1px 1px 12px var(--color4);
+}
