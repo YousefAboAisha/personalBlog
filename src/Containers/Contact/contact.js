@@ -4,6 +4,8 @@ import contactImg from "../../Media/contact.svg";
 import emailjs from "emailjs-com";
 import Footer from "../../Components/Footer/Footer";
 import Notistack from "../../Components/UI/Snackbar/snackbar";
+import Video from "../../Components/video/video";
+import vid from "../../Media/contactBackground.mp4";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -53,15 +55,7 @@ const Contact = () => {
 
   return (
     <div className={classes.wrapper}>
-      <div className={classes.home}>
-        <div className={classes.box}>
-          <h2>
-            KEEP IN TOUCH.
-            <br />
-            AND.<span>CONTACT ME</span>
-          </h2>
-        </div>
-      </div>
+      <Video text={"& Keep In Touch With Me"} vid={vid} />
 
       <div className={classes.container}>
         <section>

@@ -4,76 +4,6 @@
   height: fit-content;
 }
 
-.wrapper .home {
-  position: relative;
-  display: flex;
-  background: url(../../Media/contact2.jpg) no-repeat center;
-  height: 92vh;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.wrapper .home::before {
-  top: 0;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.363);
-}
-
-.wrapper .home .box {
-  position: relative;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  padding: 20px;
-  width: 50%;
-  backdrop-filter: blur(7px) saturate(180%);
-  -webkit-backdrop-filter: blur(7px) saturate(180%);
-  background-color: rgba(146, 146, 146, 0.158);
-  height: 100%;
-}
-
-.wrapper .home .box h2 {
-  position: relative;
-  font-size: 5.2vw;
-  color: var(--color1);
-  font-family: "Anton", sans-serif;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(34, 34, 34, 0.527);
-  filter: contrast(1.2);
-}
-
-.wrapper .home .box h2 span {
-  font-size: 5.5vw;
-  color: var(--color4);
-  font-family: "Anton", sans-serif;
-  letter-spacing: 1px;
-}
-
-.wrapper .home .box button {
-  margin-top: 10px;
-  padding: 23px 15px;
-  font-weight: 700;
-  background-color: var(--color4);
-  color: var(--color5);
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.781);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  width: 30%;
-  min-width: fit-content;
-}
-
-.wrapper .home .box button:hover {
-  background-color: transparent;
-  transition: all 0.5s ease-in-out;
-  color: var(--color1);
-}
-
 .wrapper .container {
   position: relative;
   margin: 10px auto;
@@ -196,20 +126,18 @@
   outline: none;
   width: 130px;
   margin: 5px 10px;
-  box-shadow: inset 3px 3px 25px var(--color4);
   border: 1px solid var(--color4);
   border-radius: 5px;
   background-color: var(--color4);
   color: #fff;
   transition: all 0.3s linear;
-  box-shadow: 1px 1px 10px var(--color4);
   cursor: pointer;
 }
 
 .contact .right button:hover {
   transition: all 0.3s ease;
   color: var(--color4);
-  background: none;
+  background: transparent;
 }
 
 .contact .left img {
