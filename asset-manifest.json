@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personalBlog/static/css/main.64ab997e.css",
-    "main.js": "/personalBlog/static/js/main.016168ce.js",
+    "main.js": "/personalBlog/static/js/main.90aa9865.js",
     "static/js/787.da50268a.chunk.js": "/personalBlog/static/js/787.da50268a.chunk.js",
     "static/media/contactBackground.mp4": "/personalBlog/static/media/contactBackground.6216020ad9027f9a6789.mp4",
     "static/media/projects2.jpg": "/personalBlog/static/media/projects2.32efa79375c3df72e0a2.jpg",
@@ -9,18 +9,19 @@
     "static/media/Cv.pdf": "/personalBlog/static/media/Cv.dadefd8557c36741c9ff.pdf",
     "static/media/person2.svg": "/personalBlog/static/media/person2.bd0feae41e5ea88890ca37e6a146e67e.svg",
     "static/media/contact.svg": "/personalBlog/static/media/contact.f7ec7f86232a4fcac0a2d9195834ea29.svg",
+    "static/media/weather.svg": "/personalBlog/static/media/weather.dbfd99a05ada24b17342e3338a4a83cd.svg",
     "static/media/rate.svg": "/personalBlog/static/media/rate.2c6892d8703a4cfcde5f61b75ec21387.svg",
     "static/media/youtube.svg": "/personalBlog/static/media/youtube.79346944e66b15a4cb7fd1dff8cd8a02.svg",
     "static/media/movie.svg": "/personalBlog/static/media/movie.82ded8bea5535d09ef6ae013028fde4f.svg",
     "static/media/portfolio.svg": "/personalBlog/static/media/portfolio.a718dcdc6fe87ec56eb4b1efdc87d3fc.svg",
-    "static/media/calculator.svg": "/personalBlog/static/media/calculator.119510d6c6b7df6790dec283df28b8ee.svg",
+    "static/media/house.svg": "/personalBlog/static/media/house.b482b731a9d6c27048027ca906e5480d.svg",
     "index.html": "/personalBlog/index.html",
     "main.64ab997e.css.map": "/personalBlog/static/css/main.64ab997e.css.map",
-    "main.016168ce.js.map": "/personalBlog/static/js/main.016168ce.js.map",
+    "main.90aa9865.js.map": "/personalBlog/static/js/main.90aa9865.js.map",
     "787.da50268a.chunk.js.map": "/personalBlog/static/js/787.da50268a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64ab997e.css",
-    "static/js/main.016168ce.js"
+    "static/js/main.90aa9865.js"
   ]
 }
