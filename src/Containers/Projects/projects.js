@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from "react";
 import classes from "./projects.module.css";
 import img1 from "../../Media/portfolio.svg";
 import img2 from "../../Media/youtube.svg";
-import img3 from "../../Media/calculator.svg";
 import img4 from "../../Media/rate.svg";
 import img5 from "../../Media/movie.svg";
+import img6 from "../../Media/weather.svg";
+import img7 from "../../Media/house.svg";
 import WebsiteCard from "../../Components/UI/websiteCard/WebsiteCard";
 import Footer from "../../Components/Footer/Footer";
 import RateCard from "../../Components/UI/rateCard/rateCard";
@@ -14,35 +15,55 @@ const Projects = () => {
     {
       title: "Portfolio",
       img: img1,
-      link: "https://yousefaboaisha.github.io/MyBlog/",
+      live_link: "https://yousefaboaisha.github.io/MyBlog/",
       description: ["HTML", "CSS", "JS", "BOOTSTRAB", "REACT.JS"],
+      github_link: "https://github.com/YousefAboAisha/Portfolio1",
     },
     {
       title: "Youtube- Clone",
       img: img2,
-      link: "https://yousefaboaisha.github.io/Youtube-clone/",
+      live_link: "https://yousefaboaisha.github.io/Youtube-clone/",
       description: ["HTML", "CSS"],
+      github_link: "https://github.com/YousefAboAisha/Youtube-clone",
     },
     {
-      title: "Claculator",
-      img: img3,
-      link: "https://yousefaboaisha.github.io/Calculator/",
-      description: ["HTML", "CSS", "JS", "JQUERY"],
-    },
-    {
-      title: "Rate app",
+      title: "Rate App",
       img: img4,
-      link: "https://yousefaboaisha.github.io/Rate-App/",
+      live_link: "https://yousefaboaisha.github.io/Rate-App/",
       description: ["HTML", "CSS", "JS", "BOOTSTRAB", "REACT.JS"],
+      github_link: "https://github.com/YousefAboAisha/RateApp",
     },
-
     {
-      title: "Movies app",
+      title: "Movies App",
       img: img5,
-      link: "https://yousefaboaisha.github.io/Movies-App/",
+      live_link: "https://yousefaboaisha.github.io/Movies-App/",
       description: ["HTML", "CSS", "JS", "JQUERY", "BOOTSTRAB", "REACT.JS"],
+      github_link: "https://github.com/YousefAboAisha/Movies-App",
+    },
+    {
+      title: "Weather App",
+      img: img6,
+      live_link: "https://yousefaboaisha.github.io/Weather-App/",
+      description: [
+        "HTML",
+        "CSS",
+        "JS",
+        "BOOTSTRAB",
+        "Email JS",
+        "Firebase",
+        "REACT.JS",
+      ],
+      github_link: "https://github.com/YousefAboAisha/Weather-App",
+    },
+    {
+      title: "Appartments App",
+      img: img7,
+      live_link: "https://yousefaboaisha.github.io/Houses-App/",
+      description: ["HTML", "CSS", "JS", "Firebase", "BOOTSTRAB", "REACT.JS"],
+      github_link: "https://github.com/YousefAboAisha/apartmentSellingApp",
     },
   ];
+
   const persons = [
     {
       name: "John Whick",
@@ -108,7 +129,8 @@ const Projects = () => {
                 <WebsiteCard
                   title={elem.title}
                   description={elem.description}
-                  link={elem.link}
+                  live_link={elem.live_link}
+                  github_link={elem.github_link}
                   img={elem.img}
                   key={index}
                 />

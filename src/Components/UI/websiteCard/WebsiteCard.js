@@ -15,9 +15,21 @@ const WebsiteCard = (props) => {
             return <span key={index}>{elem}</span>;
           })}
         </div>
-        <a href={props.link} target="_blank">
-          <button>Live view</button>
-        </a>
+
+        <div className={classes.btns}>
+          <a href={props.github_link} target="_blank">
+            <button>
+              View Code
+              <i class="fab fa-github"></i>
+            </button>
+          </a>
+
+          <a href={props.live_link} target="_blank">
+            <button>
+              <i class="far fa-eye"></i>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
