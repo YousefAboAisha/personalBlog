@@ -19,12 +19,12 @@ const WebsiteCard = (props) => {
         <div className={classes.btns}>
           <a href={props.github_link} target="_blank">
             <button>
-              View Code
+              Source Code
               <i class="fab fa-github"></i>
             </button>
           </a>
 
-          <a href={props.live_link} target="_blank">
+          <a href={props.live_link} target="_blank" title={"Live View"}>
             <button>
               <i class="far fa-eye"></i>
             </button>
